@@ -2,12 +2,19 @@
   "name": "titan-dark-theme",
   "displayName": "Titan Dark Theme",
   "description": "Just the most beautiful color theme.",
-  "version": "0.3.0",
+  "version": "0.5.0",
   "publisher": "TitanVHs",
   "repository": {
     "type": "git",
     "url": "https://github.com/TitanVHs/titan-dark-theme"
   },
+  "keywords": [
+    "color theme",
+    "theme",
+    "dark theme",
+    "dark",
+    "titan"
+  ],
   "engines": {
     "vscode": "^1.87.0"
   },
@@ -17,10 +24,13 @@
   "contributes": {
     "themes": [
       {
-        "label": "Titan dark theme",
+        "label": "Titan Dark Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/Titan dark theme-color-theme.json"
       }
-    ]
+    ],
+    "gallery": {
+      "icon": "images/logo.png"
+    }
   }
 }
